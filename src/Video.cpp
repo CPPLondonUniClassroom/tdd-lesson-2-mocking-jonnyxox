@@ -11,7 +11,7 @@ const std::string& Video::Type() const {
     return type;
 }
 
-auto Video::RentalStart() const -> clock_time {
+auto Video::RentalStart() const -> clock_time { // trailing return type avoids the long name syntax
     return rentalStart;
 }
 
